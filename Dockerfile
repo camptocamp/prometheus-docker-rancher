@@ -1,4 +1,4 @@
-FROM prom/prometheus
+FROM prom/prometheus:0.16.2
 MAINTAINER Marc Fournier <marc.fournier@camptocamp.com>
 
 COPY prometheus.conf /etc/prometheus/prometheus.yml
